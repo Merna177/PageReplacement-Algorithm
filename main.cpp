@@ -11,9 +11,7 @@ void print(int arr [], int page,bool flag){
    printf("F   ");
 
  for(int i = 0; i < numberOfPages; i++)
-     if(arr[i]==-1)
-       printf("   ");
-     else
+     if(arr[i]!=-1)
       printf("%02d ",arr[i]);
 
  printf("\n");
@@ -26,9 +24,7 @@ void printForPairs(pair<int,int> arr [], int page,bool flag){
    printf("F   ");
 
  for(int i = 0; i < numberOfPages; i++)
-     if(arr[i].first==-1)
-       printf("   ");
-     else
+     if(arr[i].first!=-1)
       printf("%02d ",arr[i].first);
 
  printf("\n");
